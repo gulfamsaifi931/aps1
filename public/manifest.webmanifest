@@ -1,12 +1,12 @@
 {
-    "theme_color": "#f69435",
-    "background_color": "#f69435",
+    "theme_color": "#D5C6C3",
+    "background_color": "#D5C6C3",
     "display": "standalone",
     "scope": "/",
     "start_url": "/",
-    "name": "aplusstudio.in",
-    "short_name": "aplusstudio",
-    "description": "App of aplusstudio.in ",
+    "name": "Aplusstudio",
+    "short_name": "Aplusstudio",
+    "description": "It is the PWA of Aplusstudio",
     "icons": [
         {
             "src": "/icon-192x192.png",
