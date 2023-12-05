@@ -20,7 +20,7 @@ const Services = () => {
               </div>
               <div className="mx-auto w-1/2 md:w-1/3">
                 <Image
-                  src="/S-1 copy.jpg"
+                  src="/apc.jpg"
                   alt="ecommerce"
                   width={450}
                   height={100}
