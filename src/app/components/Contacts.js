@@ -81,11 +81,11 @@ const Contact = () => {
                     <p className="mb-2 font-bold dark:text-black">
                       Email
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-00">
+                    <p className="text-neutral-700 ">
                       Info@aplusstudio.in
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">Monday to Saturday Expected </p>
-                        <p className="text-neutral-500 dark:text-neutral-200">response time: 24 hours </p>
+                    <p className="text-neutral-700 ">Monday to Saturday Expected </p>
+                        <p className="text-neutral-700 ">response time: 24 hours </p>
                         <Link href="https://gmail.com">  Send Email <span>-&gt;</span></Link>
                   </div>
                 </div>
@@ -105,10 +105,10 @@ const Contact = () => {
                     <p className="mb-2 font-bold dark:text-black">
                       Sales questions
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-700 ">
                       aplusstudio.in
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-700 ">
                       +1 234-567-89
                     </p>
                   </div>
@@ -128,10 +128,10 @@ const Contact = () => {
                   </div>
                   <div className="ml-6 grow">
                     <p className="mb-2 font-bold dark:text-black">Press</p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-700 ">
                       aplusstudio.in
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-700 ">
                       +1 234-567-89
                     </p>
                   </div>
@@ -147,11 +147,11 @@ const Contact = () => {
                   <div className="ml-6 grow">
                     <p className="mb-2 font-bold dark:text-black">Live Chat
                         </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">
+                    <p className="text-neutral-700 ">
                      Info@aplusstudio.in
                     </p>
-                    <p className="text-neutral-500 dark:text-neutral-200">Weekdays: 9 AM — 6 PM ET</p>
-                        <p className="text-neutral-500 dark:text-neutral-200">Weekends: 9 AM — 5 PM ET </p>
+                    <p className="text-neutral-700 ">Weekdays: 9 AM — 6 PM </p>
+                        <p className="text-neutral-700 ">Weekends: 9 AM — 5 PM </p>
                         <Link href="/" >  Chat Now <span>-&gt;</span></Link>
                   </div>
                 </div>

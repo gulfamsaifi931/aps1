@@ -115,13 +115,14 @@ const Orderform = () => {
                 </label>
             </div>
 
-
+            <label htmlFor="Size" className={styles.label}>
+                    Wall Size
+                    </label>
             <div class="flex rounded-md shadow-sm">
-                <label htmlFor="size" className='px-4 inline-flex items-center min-w-fit rounded-l-md border border-r-0 border-gray-200 bg-gray-50 text-sm text-gray-500 dark:bg-gray-700 dark:border-gray-700 dark:text-gray-400'>
-                    Size
+        
                     <input type="number" name="size" id="size"
                         placeholder="Height"
-                        className='py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
+                        className=' py-2 px-3 pr-11 block w-full border-gray-200 shadow-sm rounded-r-md text-sm focus:z-10 focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400'
                         value={user.size}
                         onChange={handleChange}
                         required
@@ -135,12 +136,9 @@ const Orderform = () => {
                         required
                         autoComplete="off"
                     />
-                </label>
+            
             </div>
 
-            <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
-          Contact Information
-        </h6>
 
 
 
