@@ -1,7 +1,7 @@
 import Link from "next/link";
 import baseUrl from '@/utils/baseUrl'
 import Image from 'next/image'
-const getProducts = async () => {
+const getDoor_form = async () => {
   try {
     const NextResponse = await fetch(`${baseUrl}/api/door_form`,{
       cache: "no-store",
@@ -16,8 +16,8 @@ const getProducts = async () => {
     console.log("Error loading door_form: ", error);
   }
 };
-export default async function ProductsList() {
-  const { door_form } =  await getProducts ()|| {}
+export default async function Door_formList() {
+  const { door_form } =  await getDoor_form ()|| {}
   return (
     <>
     <div  className="border border-slate-300 grid gap-6  md:grid-cols-5  ">
