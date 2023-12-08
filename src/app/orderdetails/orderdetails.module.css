@@ -1,7 +1,7 @@
 
 
 .container{
-    padding: 0 6rem;
+
     margin: 0 auto;
     text-align: center;
 }
@@ -58,7 +58,7 @@
 /*for the main contact two section*/
 
 .contact_section{
-    margin: 6rem auto;
+
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,15 +72,17 @@
 }
 
 .contact_form{
+
     max-width: 39rem;
     min-width: 23rem;
-    padding: 3.2rem;
+    padding: 1.2rem;
     box-shadow: rgba(202, 198, 198, 0.16) 0px 1px 4px;
     text-align: left;
 }
 
 .input_field{
     margin-bottom: 2rem;
+
 }
 
 .label{

@@ -15,7 +15,7 @@ export default function Home() {
               <Link  href="/" className="  items-center">
                 <Image
                   src="/log2.svg"
-                  alt="ecommerce"
+                  alt="Logo"
                   className="object-cover object-center w-full h-full block"
                   width={10}
                   height={0}

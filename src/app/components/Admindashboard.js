@@ -7,11 +7,11 @@ import ProductList from '@/app/productlist/page'
 import Showformdetails from '@/app/showformdetails/page'
 import Showorderdetails from '@/app/showorderdetails/page'
 import {signOut} from 'next-auth/react'
-
+import Showdoor_form from '@/app/showdoor_form/page'
 const Admin = () => {
   return (
     
-      <div className=" relative z-10 bg-[#fee2e2] flex h-screen">
+      <div style={{marginBottom:'-6rem'}} className=" relative z-10 bg-[#fee2e2] flex h-screen">
         <aside className="fixed z-50 md:relative">
           <input type="checkbox" className="peer hidden" id="sidebar-open" />
           <label className="peer-checked:rounded-full peer-checked:p-2 peer-checked:right-6 peer-checked:bg-gray-600 peer-checked:text-white absolute top-8 z-20 mx-4 cursor-pointer md:hidden" for="sidebar-open">
@@ -20,7 +20,7 @@ const Admin = () => {
             </svg>
           </label>
           <nav aria-label="Sidebar Navigation" className="peer-checked:w-64 left-0 z-10 flex h-screen w-0 flex-col overflow-hidden bg-[#450a0a] text-white transition-all md:h-screen md:w-64 lg:w-72">
-            <div className="bg-[#292524]  opacity-50 mt-5 py-4 pl-10 md:mt-10">
+            <div className="bg-[#292524]  opacity-50 pl-10 ">
               <span className="">
              
                 <Image
@@ -40,7 +40,8 @@ const Admin = () => {
                   <span
                   ><svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" strokeWidth="2">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2V6zM14 6a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2V6zM4 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2H6a2 2 0 01-2-2v-2zM14 16a2 2 0 012-2h2a2 2 0 012 2v2a2 2 0 01-2 2h-2a2 2 0 01-2-2v-2z" /></svg></span
-                  ><span className="">Overview</span>
+                  >
+                  <Link href='/'><span className="">Overview</span></Link>
                 </button>
               </li>
               <li className="relative">
@@ -166,17 +167,21 @@ const Admin = () => {
               </div>              
               <ProductList />
                 <div className="h-56 w-full rounded-xl bg-white p-10 shadow-md">
-                <h1 className="text-2xl font-black text-gray-800 ">Messages !</h1>
+                <h1 className="text-2xl font-black text-gray-800 ">Messages & Details of Custumer!</h1>
                 <p className="mb-1 text-gray-600 ">These are the Personal information of Custumers</p>
                 <p className=" text-gray-600 ">structure of the Messages: Name:, Email:, Phone:, Address:</p>
                 </div>
                 <Showformdetails />
                 <div className="h-56 w-full rounded-xl bg-white p-10 shadow-md">
-                <h1 className="text-2xl font-black text-gray-800 ">Order_Details !</h1>
+                <h1 className="text-2xl font-black text-gray-800 ">Order_Details for Wall cladding !</h1>
                 <p className="mb-1 text-gray-600 ">These are the Order Details of Custumers's product</p>
                 </div>
                 <Showorderdetails/>
-                <div className="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
+                <div className="h-56 w-full rounded-xl bg-white p-10 shadow-md">
+                <h1 className="text-2xl font-black text-gray-800 ">Order_Details for Door !</h1>
+                <p className="mb-1 text-gray-600 ">These are the Order Details of Custumers's product</p>
+                </div>
+                <Showdoor_form/>
                 <div className="h-56 w-full rounded-xl bg-white p-10 shadow-md"></div>
               </div>
             </main>

@@ -1,6 +1,6 @@
 import mongoose from "mongoose";
-//create a schema
-const orderdetailsSchema = new mongoose.Schema(
+//create a schema                
+const door_formSchema = new mongoose.Schema(
     {
         custumer_name:  {
             type: String,
@@ -30,7 +30,18 @@ const orderdetailsSchema = new mongoose.Schema(
             type: String,
             required: true,
         },
-        
+        polish: {
+            type: String,
+            required: true,
+        },
+        hinge: {
+            type: String,
+            required: true,
+        },
+        door_opning: {
+            type: String,
+            required: true,
+        },
         message:{
             type: String,
             required: true,
@@ -40,6 +51,6 @@ const orderdetailsSchema = new mongoose.Schema(
         timestamp: true,
     })
 //create a modle  
-const orderdetails = mongoose.models.orderdetails || mongoose.model('orderdetails', orderdetailsSchema)
+const door_form = mongoose.models.door_form || mongoose.model('door_form', door_formSchema)
 
-export default  orderdetails;
+export default  door_form;
