@@ -165,6 +165,7 @@ const Contact = () => {
 
 </div>
 <iframe style={{marginTop:'-7rem', marginBottom:'-6rem'}} 
+ title="aplusstudio_map"
                 src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14022.1804498434!2d77.3962677!3d28.5233307!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390ce9d48b8267cd%3A0xb8ae7c7899c59509!2sInterior%20Craft!5e0!3m2!1sen!2sin!4v1695297049862!5m2!1sen!2sin"
                 width={100} height={450}  allowFullScreen="" loading="lazy" className={styles.mapping}
                 referrerPolicy="no-referrer-when-downgrade"></iframe>

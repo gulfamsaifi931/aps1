@@ -23,6 +23,7 @@ export default function Home() {
               </Link>
               <div  className=" md:hidden">
                 <button
+                aria-label="aplusstudio"
                   className="p-2 text-gray-700 rounded-md outline-none focus:border-gray-400 focus:border"
                   onClick={() => setNavbar(!navbar)}
                 >
